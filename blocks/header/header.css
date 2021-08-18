@@ -3,4 +3,7 @@
     min-height: 600px;
     max-height: 756px;
     display: flex;
+    align-content: center;
+    position: relative;
+
 }

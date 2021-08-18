@@ -1,3 +1,10 @@
 .header__link {
   color: #2f80ed;
 }
+
+.header__link:hover {
+
+  color: red;
+  font-size: 28px;
+
+}

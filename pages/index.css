@@ -4,7 +4,9 @@
 @import url(../blocks/block-centered/block-centered.css);
 
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
 
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
