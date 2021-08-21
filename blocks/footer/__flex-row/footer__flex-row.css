@@ -1,0 +1,7 @@
+.footer__flex-row {
+  margin-bottom: 10px;
+}
+
+.footer__flex-row:last-of-type {
+  margin-bottom: 0;
+}

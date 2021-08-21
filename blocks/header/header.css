@@ -1,10 +1,16 @@
 .header {
-    height: 100vh;
+
+
+    height: 100vh; /* если не поставить это свойство, то синий квадрат выходит за пределы блока,
+    поскольку у него значение абсолютное и он выпадает их потока, не влияя на высоту родителя,
+    его размеры 568px + 64px(смещение сверху) нижняя граница = 632, что на 32 больше минимальной */
+
+
     min-height: 600px;
     max-height: 756px;
     display: flex;
     align-content: center;
     position: relative;
-    
-
+    background-color: #f2f2f2;
+    overflow: hidden;
 }
